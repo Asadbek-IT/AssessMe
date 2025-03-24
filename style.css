@@ -1,0 +1,95 @@
+/*{
+    padding: 0;
+    margin: 0;
+}*/
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.wrapper{
+    width: 1500px;
+    background-color: rgb(228, 227, 227);
+    margin: 100px auto;
+    padding: 50px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar__list{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.intro{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.intro__title{
+width: 610px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 90px;
+line-height: 105px;
+
+color: #003B66;
+
+}
+
+.intro__text{
+
+width: 407px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+
+color: #005999;
+
+
+}
+
+.intro__span{
+    color: #003B66;
+}
+
+.btn{
+width: 183px;
+height: 56px;
+
+background: linear-gradient(264.88deg, #004A80 0.72%, #002C4D 99.28%);
+border-radius: 4px;
+color: white;
+font-weight: 900;
+}
+
+.btn2{
+    width: 183px;
+    height: 56px;
+    
+    background: white;
+    color: #004A80;
+
+}
+
+.assessme{
+    font-size: 340px;
+    color: rgb(202, 202, 202);
+    opacity: 0.3;
+}
